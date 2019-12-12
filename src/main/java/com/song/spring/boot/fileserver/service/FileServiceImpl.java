@@ -43,8 +43,6 @@ public class FileServiceImpl implements FileService {
 
 	private Map<String,GridFsTemplate> gridFsMap = new HashMap<>();
 
-	@Autowired
-	private GridFsTemplate gridFsTemplate;
 	@Resource
 	private MongoDbFactory mongoDbFactory;
 	@Resource
