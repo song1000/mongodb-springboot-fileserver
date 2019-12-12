@@ -1,6 +1,6 @@
 # MongoDB File Server（基于 MongoDB 的文件服务器）
 
-声名： 基于waylau：mongodb-file-server进行的改造，用户可以存储大于16Mb的文件，也可以自定义buckit
+声名： 基于waylau：mongodb-file-server进行的改造，用户可以存储大于16Mb的文件，也可以自定义bucket, 代码中bucket硬编码为‘trans’,用户可以根据输入参数进行传递，动态修改bucket
 
 MongoDB File Server is a file server system based on MongoDB. MongoDB File Server is committed to the storage of small files, such as pictures in the blog, ordinary documents and so on.
 
